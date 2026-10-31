@@ -1,0 +1,13 @@
+build/
+.DS_Store
+work/
+
+# Local secrets and signing material
+.env
+.env.*
+!.env.example
+.secrets/
+*.pem
+*.key
+*.p12
+*.pfx
